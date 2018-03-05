@@ -1,0 +1,28 @@
+body{
+        Background-color:white;
+        color: white;
+        font-family: sans-serif;
+        image-orientation: center;
+        }
+
+
+.cloud-timelapse:hover{
+    opacity: .25;
+     transition: opacity 0.5s ease;
+        
+}
+
+
+img:hover{
+    
+    
+      opacity: .75;
+     transition: opacity 0.5s ease;
+   
+}
+
+
+body:hover{
+    background-color: black;
+    
+}
