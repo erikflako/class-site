@@ -24,6 +24,8 @@ img:hover{
 
 body:hover{
     background-color: black;
+    transition: 5s ease;
+    
     
 }
 
