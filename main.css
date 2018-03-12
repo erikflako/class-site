@@ -17,7 +17,10 @@ img:hover{
     
     
       opacity: .75;
-     transition: opacity 0.5s ease;
+     transition: opacity 0.5s ease;  
+      transition: margin 2s ease;
+
+  margin-left: 100px;
    
 }
 
@@ -35,10 +38,20 @@ body:hover{
 .whatistime:hover{
     color: aqua;
     transition: 2s ease;
+    
+    
+    outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 6em;
+	line-height: 1;
+	color: #9e9ba4;
+	display: inline-block;
 }
 
 .description:hover{
     color: yellow;
     transition: 2s ease;
+    text-transform: uppercase;
 
 }
