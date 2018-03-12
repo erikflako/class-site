@@ -26,3 +26,17 @@ body:hover{
     background-color: black;
     
 }
+
+
+
+
+.whatistime:hover{
+    color: aqua;
+    transition: 2s ease;
+}
+
+.description:hover{
+    color: yellow;
+    transition: 2s ease;
+
+}
