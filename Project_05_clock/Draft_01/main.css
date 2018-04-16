@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    
+}
+
+#rectangle1{
+     position:absolute;
+   
+            background-color:white;
+            width:200px;
+            height:50px;
+    
+}
+
+
+#rectangle2{
+     position: absolute;
+            top: 250px;
+            left:250px;
+            background-color:white;
+            width:200px;
+            height:50px;
+}
+
+
+#rectangle3{
+     position: absolute;
+            top: 550px;
+            left:550px;
+            background-color:white;
+            width:200px;
+            height:50px;   
+}

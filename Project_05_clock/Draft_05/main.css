@@ -1,0 +1,172 @@
+body{
+       position: relative;
+    width:100%;
+    height:100%;
+  animation: pulse 8s infinite ;
+     
+}
+
+@keyframes pulse {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: darkblue;
+       
+  }
+     }
+
+        
+
+
+    
+#hours1 {
+    background-color:  white;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    animation: rotate 43200s infinite linear;
+    
+}
+
+
+
+
+#minutes1{
+     position: absolute;
+            top: 550px;
+            left:450px;
+            background-color:white;
+            width:200px;
+            height:30px;
+    
+}
+
+
+#seconds1{
+     position: absolute;
+            top: 550px;
+            left:850px;
+            background-color:white;
+            width:200px;
+            height:20px;   
+  
+}
+
+
+
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+    
+  }
+
+}
+
+
+
+#minutes1 {
+    animation: rotate 3600s infinite steps(3600);
+}
+
+
+#seconds1 {
+    animation: rotate 60s infinite steps(60);
+}
+
+
+
+
+@keyframes move {
+    0%{
+        transform: translate(0)
+    }
+    100%{
+        transform: translate(1100px)
+    }
+}
+
+
+
+#hours2{
+     position: absolute;
+   
+            background-color:darkgray;
+            width:50px;
+            height:50px;
+            top: 450px;
+            left: 0px;
+     animation: move 43200s steps(43200) infinite;
+ 
+}
+
+
+#minutes2{
+     position: absolute;
+            top: 280px;
+            left:0px;
+            background-color:darkgray;
+            width:25px;
+            height:25px;
+     animation: move 3600s steps(3600) infinite;
+  
+}
+
+
+#seconds2{
+     position: absolute;
+            top: 100px;
+            left:0px;
+            background-color:darkgrey;
+            width:10px;
+            height:10px;   
+    animation: move 60s steps(60) infinite;
+}
+
+
+
+#hours3{
+  animation: MoveUpDown 43200s steps(43200) infinite;
+  position: absolute;
+  left: 85%;
+  background-color: lightgray;
+    width: 25px;
+    height: 5px;
+  bottom: 0;
+}
+
+
+
+
+#minutes3{
+  animation: MoveUpDown 3600s steps(3600) infinite;
+  position: absolute;
+  left: 50%;
+  background-color: lightgray;
+    width: 25px;
+    height: 5px;
+  bottom: 0;
+}
+
+
+
+#seconds3{
+  animation: MoveUpDown 60s steps(60) infinite;
+  position: absolute;
+  left: 5%;
+  background-color: lightgray;
+    width: 25px;
+    height: 5px;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 700px;
+  }
